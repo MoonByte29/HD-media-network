@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
       {" "}
        <Helmet>
         {/* Primary Meta Tags */}
-        <title>HD Media Network | Empowering Your Digital Presence</title>
+        <title>HD Media Network | Best IT company in Jaipur</title>
         <meta name="title" content="HD Media Network | Empowering Your Digital Presence" />
         <meta
           name="description"
