@@ -32,14 +32,14 @@ const ServicesPage: React.FC = () => {
           content="Discover tailored digital solutions that empower your business to grow online — from design to deployment."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://hdmedianetwork.com/services" />
+        <meta property="og:url" content="https://hdmedianetwork.in/services" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Our Services | HD Media Network" />
         <meta
           name="twitter:description"
           content="Explore our expert digital services and find the perfect solution for your business goals."
         />
-        <link rel="canonical" href="https://hdmedianetwork.com/services" />
+        <link rel="canonical" href="https://hdmedianetwork.in/services" />
       </Helmet>
 
       

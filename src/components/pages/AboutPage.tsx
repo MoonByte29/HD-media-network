@@ -154,14 +154,14 @@ const AboutPage: React.FC = () => {
           content="Get to know the story and people behind HD Media Network, your trusted digital growth partner."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://hdmedianetwork.com/about" />
+        <meta property="og:url" content="https://hdmedianetwork.in/about" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Us | HD Media Network" />
         <meta
           name="twitter:description"
           content="Learn about HD Media Network’s journey, expertise, and the values that drive us forward."
         />
-        <link rel="canonical" href="https://hdmedianetwork.com/about" />
+        <link rel="canonical" href="https://hdmedianetwork.in/about" />
       </Helmet>
 
       <div className="bg-white min-h-screen">

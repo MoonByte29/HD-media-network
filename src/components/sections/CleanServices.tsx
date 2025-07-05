@@ -76,7 +76,7 @@ const CleanServices = () => {
 
                   {/* Learn More Link */}
                   <div className="flex items-center text-purple-600 font-semibold group-hover:text-purple-700 transition-colors duration-300">
-                    <Link to="/servicepage" className="text-sm">Learn More</Link>
+                    <Link to="/services" className="text-sm">Learn More</Link>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const CleanServices = () => {
             whileTap={{ scale: 0.98 }}
             className="btn btn-accent text-lg px-10 py-4"
           >
-            <Link to="/servicepage">View All Services</Link>
+            <Link to="/services">View All Services</Link>
             <ArrowRight className="w-5 h-5 ml-2" />
           </motion.button>
         </motion.div>

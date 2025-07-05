@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const CleanHero = () => {
   return (
-    <section className="pt-24 pb-16 bg-white min-h-screen flex items-center">
+    <section className="pt-24 pb-16 bg-white min-h-screen flex items-center cursor-pointer">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
@@ -56,8 +56,8 @@ const CleanHero = () => {
               className="flex flex-wrap gap-4 mb-8"
             >
               {[
-                "Lightning Fast",
-                "99.9% Uptime",
+                "Experiencced Team",
+                "Global Presence",
                 "24/7 Support"
               ].map((feature, index) => (
                 <div key={index} className="flex items-center space-x-2">
@@ -89,7 +89,7 @@ const CleanHero = () => {
                 className="btn btn-secondary px-6 py-3"
               >
                 <SearchCheck className="w-4 h-4 mr-2" />
-                <Link to="/servicepage">Explore Services</Link>
+                <Link to="/services">Explore Services</Link>
               </motion.button>
             </motion.div>
           </div>

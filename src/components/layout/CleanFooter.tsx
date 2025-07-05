@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, ArrowRight, Globe2, Clock, Linkedin, Twitter, Instagram, Facebook } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const CleanFooter = () => {
   const footerLinks = {
@@ -11,10 +12,10 @@ const CleanFooter = () => {
       { name: "Contact", href: "#contact" }
     ],
     services: [
-      { name: "Web Development", href: "/servicepage" },
-      { name: "Mobile Apps", href: "/servicepage" },
-      { name: "Digital Marketing", href: "/servicepage" },
-      { name: "SEO Optimization", href: "/servicepage" }
+      { name: "Web Development", href: "/services" },
+      { name: "Mobile Apps", href: "/services" },
+      { name: "Digital Marketing", href: "/services" },
+      { name: "SEO Optimization", href: "/services" }
     ],
     resources: [
       { name: "Blog", href: "#blog" },
@@ -245,15 +246,15 @@ const CleanFooter = () => {
               &copy; {new Date().getFullYear()} HD Media Network. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-500 hover:text-white transition-colors duration-300">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-gray-500 hover:text-white transition-colors duration-300">
-                Terms of Service
-              </a>
-              <a href="#" className="text-gray-500 hover:text-white transition-colors duration-300">
-                Cookie Policy
-              </a>
+              <Link to="/refundpolicy" className="text-gray-500 hover:text-white transition-colors duration-300">
+                Refund Policy
+              </Link>
+              <Link to="/termsandconditions" className="text-gray-500 hover:text-white transition-colors duration-300">
+                Terms & Conditions
+              </Link>
+              <Link to="/faq" className="text-gray-500 hover:text-white transition-colors duration-300">
+                FAQ's
+              </Link>
             </div>
           </div>
         </motion.div>

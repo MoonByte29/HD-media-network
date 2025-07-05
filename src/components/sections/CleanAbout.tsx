@@ -100,7 +100,7 @@ const CleanAbout = () => {
                 whileTap={{ scale: 0.98 }}
                 className="btn btn-primary"
               >
-                <Link to="/aboutpage" >Learn More About Us</Link>
+                <Link to="/about" >Learn More About Us</Link>
                 <ArrowRight className="w-5 h-5 ml-2" />
               </motion.button>
             </motion.div>
