@@ -20,7 +20,7 @@ const RefundPolicyPage: React.FC = () => {
       icon: Clock,
       title: "5-Day Reporting Window",
       description:
-        "Refund requests must be submitted within 5 days of service initiation to support@hdmedianetwork.online. This ensures we can address your concerns promptly and effectively.",
+        "Refund requests must be submitted within 5 days of service initiation to support@hdmedianetwork.in. This ensures we can address your concerns promptly and effectively.",
     },
     {
       icon: CheckCircle,
@@ -69,7 +69,7 @@ const RefundPolicyPage: React.FC = () => {
       step: "02",
       title: "Submit Refund Request",
       description:
-        "Contact support@hdmedianetwork.online within 5 days of service initiation with a detailed description of issues and supporting documentation.",
+        "Contact support@hdmedianetwork.in within 5 days of service initiation with a detailed description of issues and supporting documentation.",
     },
     {
       step: "03",
@@ -105,7 +105,7 @@ const RefundPolicyPage: React.FC = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://hdmedianetwork.in/termsandconditions"
+          content="https://hdmedianetwork.in/refundpolicy"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Us | HD Media Network" />
@@ -115,7 +115,7 @@ const RefundPolicyPage: React.FC = () => {
         />
         <link
           rel="canonical"
-          href="https://hdmedianetwork.in/termsandconditions"
+          href="https://hdmedianetwork.in/refundpolicy"
         />
       </Helmet>
       <div className="bg-white min-h-screen">
@@ -429,7 +429,7 @@ const RefundPolicyPage: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <motion.a
-                href="mailto:support@hdmedianetwork.online"
+                href="mailto:support@hdmedianetwork.in"
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.98 }}
                 className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 text-center"

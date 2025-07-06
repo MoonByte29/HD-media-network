@@ -9,7 +9,6 @@ const CleanClients = () => {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        
         {/* Section Header */}
         <div className="text-center mb-12">
           <motion.h2
@@ -45,13 +44,15 @@ const CleanClients = () => {
                 whileHover={{ scale: 1.05, y: -5 }}
                 className="clean-card p-4 text-center group cursor-pointer border-2 border-transparent hover:border-purple-500 transition-all duration-300"
               >
-                <img
-                  src={partner.logo}
-                  alt={`${partner.name} logo`}
-                  className="h-12 w-auto mx-auto transition-all duration-300 filter grayscale group-hover:grayscale-0"
-                  loading="lazy"
-                />
-                <p className="text-xs text-gray-500 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="flex items-center justify-center h-12 mb-2">
+                  <img
+                    src={partner.logo}
+                    alt={`${partner.name} logo`}
+                    className="max-h-12 max-w-full w-auto h-auto object-contain transition-all duration-300 filter grayscale group-hover:grayscale-0"
+                    loading="lazy"
+                  />
+                </div>
+                <p className="text-xs text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   {partner.name}
                 </p>
               </motion.div>
@@ -66,13 +67,13 @@ const CleanClients = () => {
           <div className="absolute right-0 top-0 w-20 h-full bg-gradient-to-l from-white to-transparent z-10"></div>
 
           {/* Scrolling container */}
-          <motion.div 
+          <motion.div
             className="flex space-x-8 py-4"
             animate={{ x: [0, -50 * partners.length] }}
             transition={{
               duration: 30,
               repeat: Infinity,
-              ease: "linear"
+              ease: "linear",
             }}
             whileHover={{ animationPlayState: "paused" }}
           >

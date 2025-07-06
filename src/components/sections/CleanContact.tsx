@@ -364,7 +364,7 @@ const CleanContact = () => {
                 Contact Information
               </h3>
 
-              <div className="space-y-6">
+              <div className="space-y-4 sm:space-y-6">
                 {contactInfo.map((info, index) => (
                   <motion.div
                     key={index}
@@ -372,16 +372,16 @@ const CleanContact = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
-                    className="flex items-start space-x-4"
+                    className="flex items-start space-x-3 sm:space-x-4"
                   >
-                    <div className="w-10 h-10 bg-gray-900 rounded-lg flex items-center justify-center">
-                      <info.icon className="w-5 h-5 text-white" />
+                    <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 bg-gray-900 rounded-lg flex items-center justify-center">
+                      <info.icon className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                     </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 mb-1">
+                    <div className="flex-1 min-w-0">
+                      <h4 className="font-bold text-gray-900 mb-1 text-sm sm:text-base break-words">
                         {info.title}
                       </h4>
-                      <p className="text-gray-600 whitespace-pre-line">
+                      <p className="text-gray-600 whitespace-pre-line text-sm sm:text-base leading-relaxed break-words">
                         {info.content}
                       </p>
                     </div>
