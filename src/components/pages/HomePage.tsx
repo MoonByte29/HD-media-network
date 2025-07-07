@@ -58,7 +58,7 @@ const HomePage: React.FC = () => {
         <CleanProcess />
         <Client />
         <CleanTestimonials />
-        <CleanContact />
+        <CleanContact /> //fixed say something
       </main>
     </>
   );

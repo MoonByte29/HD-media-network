@@ -8,7 +8,7 @@ const CleanHero = () => {
   return (
     <section className="pt-20 sm:pt-24 pb-12 sm:pb-16 bg-white min-h-screen flex items-center cursor-pointer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-8 lg:gap-12 items-center">
           
           {/* Left Content */}
           <div className="text-center lg:text-left order-2 lg:order-1">
@@ -103,10 +103,10 @@ const CleanHero = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="relative flex justify-center items-center order-1 lg:order-2"
+            className="relative flex justify-center items-center order-1 lg:order-2 py-0 my-0"
           >
-            {/* Lottie Container with responsive dimensions */}
-            <div className="relative w-full max-w-sm sm:max-w-md lg:max-w-lg mx-auto">
+            {/* Lottie Container with responsive dimensions and reduced mobile spacing */}
+            <div className="relative w-full max-w-xs sm:max-w-md lg:max-w-lg mx-auto">
               <motion.div
                 className="relative w-full h-auto"
                 whileHover={{ scale: 1.02 }}
@@ -119,10 +119,10 @@ const CleanHero = () => {
                   style={{
                     width: '100%',
                     height: 'auto',
-                    minHeight: '250px',
-                    maxHeight: '350px'
+                    minHeight: '200px',
+                    maxHeight: '280px'
                   }}
-                  className="sm:min-h-[300px] sm:max-h-[400px] lg:min-h-[400px] lg:max-h-[500px]"
+                  className="sm:min-h-[200px] sm:max-h-[400px] lg:min-h-[400px] lg:max-h-[500px]"
                 />
               </motion.div>
             </div>
