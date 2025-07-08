@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, ArrowRight, Globe2, Clock, Linkedin, Twitter, Instagram, Facebook } from "lucide-react";
 import { Link } from "react-router-dom";
+import favion from "../../assets/favicon.png" ;
 
 const CleanFooter = () => {
   const footerLinks = {
@@ -69,7 +70,7 @@ const CleanFooter = () => {
               className="flex items-center space-x-3 mb-6"
             >
               <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                <Globe2 className="w-6 h-6 text-gray-900" />
+                <img src={favion} alt=""/>
               </div>
               <div>
                 <span className="text-2xl font-bold">HD Media Network</span>
@@ -111,38 +112,6 @@ const CleanFooter = () => {
               </motion.button>
             </motion.div>
           </div>
-
-          {/* Quick Links */}
-          {/* <div>
-            <motion.h3
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-lg font-bold mb-6 text-white/80"
-            >
-              Company
-            </motion.h3>
-            <ul className="space-y-3">
-              {footerLinks.company.map((link, index) => (
-                <motion.li
-                  key={index}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.4, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                >
-                  <a
-                    href={link.href}
-                    target="_blank"
-                    className="text-gray-400 hover:text-white transition-colors duration-300"
-                  >
-                    {link.name}
-                  </a>
-                </motion.li>
-              ))}
-            </ul>
-          </div> */}
 
           {/* Services */}
           <div className="md:pl-20">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Menu, X, ArrowRight, Globe2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import favicon from "../../assets/favicon.png";
 
 const navItems = [
   { name: "About", href: "/#about" },
@@ -135,7 +135,7 @@ const CleanHeader = () => {
             transition={{ duration: 0.2 }}
           >
             <div className="w-8 h-8 flex items-center justify-center">
-              <img src={logo} alt="HD Media Network Logo" className="w-full h-full object-contain" />
+              <img src={favicon} alt="HD Media Network Logo" className="w-full h-full object-contain" />
             </div>
             <Link 
               to="/" 

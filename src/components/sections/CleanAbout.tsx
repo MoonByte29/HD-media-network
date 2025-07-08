@@ -116,7 +116,7 @@ const CleanAbout = () => {
           >
             {/* Main Workspace Image */}
             <div className=" group ">
-              {/* <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-blue-600/20 rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-blue-600/20 rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-2xl transform -rotate-3 group-hover:-rotate-6 transition-transform duration-500"></div>
               
               <img
@@ -124,20 +124,20 @@ const CleanAbout = () => {
                 alt="HD Media Network Modern Workspace"
                 className="relative w-full h-96 object-cover rounded-2xl shadow-2xl group-hover:shadow-3xl transition-shadow duration-500"
               />
-               */}
+              
               {/* Floating badge */}
-              {/* <div className="absolute -top-4 -right-4 bg-gradient-to-r from-purple-500 to-blue-600 text-white px-4 py-2 rounded-full shadow-lg transform rotate-12 group-hover:rotate-0 transition-transform duration-500">
+              <div className="absolute -top-4 -right-4 bg-gradient-to-r from-purple-500 to-blue-600 text-white px-4 py-2 rounded-full shadow-lg transform rotate-12 group-hover:rotate-0 transition-transform duration-500">
                 <div className="flex items-center space-x-2">
                   <span className="text-2xl">💻</span>
                   <span className="font-semibold text-sm">Modern Workspace</span>
                 </div>
-              </div> */}
+              </div>
             </div>
 
             {/* Decorative elements */}
-            {/* <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-gradient-to-br from-purple-100 to-purple-200 rounded-full opacity-60"></div>
+            <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-gradient-to-br from-purple-100 to-purple-200 rounded-full opacity-60"></div>
             <div className="absolute -top-8 -right-8 w-32 h-32 bg-gradient-to-br from-blue-100 to-blue-200 rounded-full opacity-60"></div>
-           */}
+          
           </motion.div>
         </div>
 
