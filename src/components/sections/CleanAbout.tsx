@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { CheckCircle, Users, Award, Target, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import about from "../../assets/About.jpg"
 
 const CleanAbout = () => {
   const stats = [
@@ -120,7 +121,7 @@ const CleanAbout = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-2xl transform -rotate-3 group-hover:-rotate-6 transition-transform duration-500"></div>
               
               <img
-                src="/src/assets/About copy.jpg"
+                src={about}
                 alt="HD Media Network Modern Workspace"
                 className="relative w-full h-96 object-cover rounded-2xl shadow-2xl group-hover:shadow-3xl transition-shadow duration-500"
               />
